@@ -3,15 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "husky": "^1.1.2",
-    "lint-staged": "^7.3.0",
-    "prettier": "^1.14.3",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-redux": "^5.1.0",
-    "react-scripts": "2.0.5",
-    "redux-saga": "^0.16.2",
-    "styled-components": "^4.0.2"
+    "react-scripts": "2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,6 +34,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "redux-devtools": "^3.4.1"
+    "husky": "^1.1.4",
+    "lint-staged": "^7.3.0",
+    "prettier": "1.15.2"
   }
 }
